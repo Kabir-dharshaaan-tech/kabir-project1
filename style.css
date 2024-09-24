@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:black;
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 7%;
+    height:100vh;
+    background-image: url("assets/Title-Image.png");
+    background-position:cover;
+    background-size:100%;  
+    position: relative;
+}
+.buttons{
+    color:#fff;
+}
+.buttons1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+    margin-left: 500%;
+}
+.logo{
+    width:150px;
+    cursor: pointer;
+}
+.movies{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    color:#fff;
+}
+.row {
+    background-image: url("assets/download.jpeg");
+}
+.symbol{
+    margin-top: 50vh;
+    width:50px;
+    height:20px;
+}
